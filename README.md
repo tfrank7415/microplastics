@@ -1,5 +1,8 @@
 # Microplastics
 
+# Purpose: 
+This project is to create something cool for Wesley while giving me an opportunity to learn.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
 
 ## Development server
