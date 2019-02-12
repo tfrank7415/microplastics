@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { MatMenuTrigger } from '@angular/material/menu';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'microplastics';
+  @ViewChild(MatMenuTrigger) trigger: MatMenuTrigger;
+
+  openMenu() {
+    this.trigger.openMenu();
+  }
 }

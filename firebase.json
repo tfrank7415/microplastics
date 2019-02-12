@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "microplastics",
+    "public": "dist/microplastics",
     "ignore": [
       "firebase.json",
       "**/.*",
